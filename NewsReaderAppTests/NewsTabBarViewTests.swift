@@ -52,7 +52,7 @@ class NewsTabBarViewTests: XCTestCase {
     
     @MainActor func testNewsTabBarView_fetchBookmarkedArticles() async {
         let viewModel = NewsViewModel(apiService: apiService, databaseService: databaseService)
-        let view = NewsTabBarView().environmentObject(viewModel)
+        _ = NewsTabBarView().environmentObject(viewModel)
         await viewModel.fetchBookmarkedArticles()
         XCTAssertNotNil(viewModel.bookmarkedArticles)
     }
