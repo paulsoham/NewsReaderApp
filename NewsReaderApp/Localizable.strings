@@ -1,0 +1,58 @@
+/*
+  Localizable.strings
+  NewsReaderApp
+  Created by sohamp on 30/09/24.
+*/
+
+/* Hardcoded strings */
+"app_title" = "Bookmarked News";
+"loading_message" = "Loading bookmarked articles...";
+"no_internet_message" = "No Internet Connection";
+"check_internet_message" = "Please check your internet connection and try again.";  // Added semicolon
+"no_bookmarked_articles" = "No bookmarked articles found.";
+"ok_button" = "OK";
+
+/* NewsTabBarView Localization */
+"news_tab_title" = "News";
+"bookmarks_tab_title" = "Bookmarks";
+
+/* Category Strings */
+"category_general" = "General";
+"category_business" = "Business";
+"category_technology" = "Technology";
+"category_health" = "Health";
+"category_science" = "Science";
+"category_sports" = "Sports";
+"category_entertainment" = "Entertainment";
+
+/* Navigation Title */
+"news_title" = "News";
+
+/* NewsListView Localization */
+"loading_articles" = "Loading articles...";
+"no_articles_available" = "No articles available";
+"trending_news" = "Trending News";
+
+/* NewsDetailView Localization */
+"invalid_url_message" = "Invalid URL";
+
+/* NewsRowView Localization */
+"untitled_article" = "Untitled";
+
+/* NewsViewModel Localization */
+"no_internet_connection" = "No internet connection.";
+"failed_to_fetch_articles" = "Failed to fetch articles: %@";
+"error_fetching_bookmarked_articles" = "Error fetching bookmarked articles: %@";
+"error_bookmarking_article" = "Error bookmarking article: %@";
+"error_removing_article_from_bookmarks" = "Error removing article from bookmarks: %@";
+
+/* APIError Localization */
+"invalid_url_error" = "The URL provided is invalid.";
+"unknown_error" = "An unknown error occurred.";
+
+/* NewsDatabaseManager Localizable */
+"article_not_found" = "The article was not found in the database.";
+"deletion_failed" = "Failed to delete the article: %@";
+"failed_to_save_article" = "Failed to save the article: %@";
+"failed_to_fetch_articles" = "Failed to fetch articles: %@";
+"successfully_removed_article" = "Successfully removed the article with ID: %@";
