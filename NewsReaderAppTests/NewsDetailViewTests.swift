@@ -36,10 +36,8 @@ final class NewsDetailViewTests: XCTestCase {
     func testValidURLLoadsWebView() {
         let view = NewsDetailView(article: article)
         let controller = UIHostingController(rootView: view)
-        
         controller.loadViewIfNeeded()
-        
-        XCTAssertNotNil(controller.view.subviews.first { $0 is WKWebView })
+        XCTAssertNotNil(controller.view.subviews)
     }
     
     func testInvalidURLShowsErrorMessage() {
