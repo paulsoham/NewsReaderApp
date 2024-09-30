@@ -1,4 +1,4 @@
-# Trendy News Reader App
+# News Reader App
 
 ## Overview
 News Reader is an iOS application developed using SwiftUI that allows users to browse and read news articles from various sources. The app fetches articles from the NewsAPI, allows users to bookmark articles for offline reading of title and description, and provides filtering options for a personalized reading experience.
