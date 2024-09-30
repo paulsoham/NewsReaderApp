@@ -41,7 +41,7 @@ class NewsAPIServiceTests: XCTestCase {
             _ = try await invalidURLService.fetchArticles(category: "technology")
             XCTFail("Expected to fail with invalid URL error, but succeeded")
         } catch let error as APIError {
-            XCTAssertEqual(error, APIError.invalidURL("invalid_url/top-headlines?category=technology&apiKey=eb9ecaa858b84eb58f8f33ca5da08b6f"))
+            XCTAssertEqual(error, APIError.invalidURL("invalid_url/top-headlines?category=technology&apiKey=06828e4a608f45deb3b45babcefeddfb"))
         } catch {
             XCTFail("Expected invalid URL error, but got a different error: \(error)")
         }
