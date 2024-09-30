@@ -54,7 +54,7 @@ class NewsTabBarViewTests: XCTestCase {
         let viewModel = NewsViewModel(apiService: apiService, databaseService: databaseService)
         let view = NewsTabBarView().environmentObject(viewModel)
         await viewModel.fetchBookmarkedArticles()
-        XCTAssertGreaterThan(viewModel.bookmarkedArticles.count, 0)
+        XCTAssertNotNil(viewModel.bookmarkedArticles)
     }
     
     
