@@ -17,9 +17,9 @@ News Reader is an iOS application developed using SwiftUI that allows users to b
      <td>News Detail</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/5363efab-73cc-4f3e-b016-46af98088910" width=50% height=50%></td>
-    <td><img src="https://github.com/user-attachments/assets/a51bc6f7-d705-4d66-95c9-55c4a7b0ec6f" width=50% height=50%></td>
-    <td><img src="https://github.com/user-attachments/assets/8ad2b282-3d6f-47d7-9e26-b9c1d60dc09e" width=50% height=50%></td>
+    <td><img src="https://github.com/user-attachments/assets/5363efab-73cc-4f3e-b016-46af98088910" width=75% height=75%></td>
+    <td><img src="https://github.com/user-attachments/assets/a51bc6f7-d705-4d66-95c9-55c4a7b0ec6f" width=75% height=75%></td>
+    <td><img src="https://github.com/user-attachments/assets/8ad2b282-3d6f-47d7-9e26-b9c1d60dc09e" width=75% height=75%></td>
   </tr>
  </table>
 
