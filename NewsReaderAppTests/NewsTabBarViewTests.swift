@@ -45,7 +45,7 @@ class NewsTabBarViewTests: XCTestCase {
     
     @MainActor func testNewsTabBarView_fetchNews() async {
         let viewModel = NewsViewModel(apiService: apiService, databaseService: databaseService)
-        let view = NewsTabBarView().environmentObject(viewModel)
+        _ = NewsTabBarView().environmentObject(viewModel)
         await viewModel.fetchNews()
         XCTAssertGreaterThan(viewModel.articles.count, 0)
     }
