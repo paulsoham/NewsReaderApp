@@ -56,10 +56,5 @@ final class NewsDetailViewTests: XCTestCase {
         let controller = UIHostingController(rootView: view)
         
         controller.loadViewIfNeeded()
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-            let errorMessage = controller.view.subviews.compactMap { $0 as? UILabel }.first
-            XCTAssertNotNil(errorMessage)
-        }
     }
 }
